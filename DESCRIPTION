@@ -1,0 +1,38 @@
+Package: pediatric.zcalc
+Type: Package
+Title: Z-Score Calculator for Biomarkers: Childhood to Young Adulthood
+Version: 0.1.1
+Authors@R: c(
+    person(
+      "Andreas", "Mändle",
+      email = "maendle@leibniz-bips.de",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Timm", "Intemann",
+      role = "aut"
+    ),
+    person(
+      "Zülal", "Bekerecioglu",
+      role = "aut"
+    )
+  )
+Description: Provides tools to compute individual percentile ranks and z-scores for clinical biomarkers in children, adolescents and young adults, based on age-, sex-, and height-specific reference data from the IDEFICS (Identification and prevention of Dietary and lifestyle-induced health EFfects In Children and infantS) study and the Biomarkers4Pediatrics collaboration. Supports the computation of a composite Metabolic Syndrome (MetS) score and associated monitoring/action levels for health monitoring. For more details see Ahrens et al. (2014) <doi:10.1038/ijo.2014.130>.
+License: GPL-3
+Encoding: UTF-8
+URL: https://github.com/bips-hb/pediatric.zcalc
+BugReports: https://github.com/bips-hb/pediatric.zcalc/issues
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: gamlss.dist, pracma
+Config/roxygen2/version: 8.1.0
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-09-21 13:27:56 UTC; maendle
+Author: Andreas Mändle [aut, cre],
+  Timm Intemann [aut],
+  Zülal Bekerecioglu [aut]
+Maintainer: Andreas Mändle <maendle@leibniz-bips.de>
+Repository: CRAN
+Date/Publication: 2026-09-30 09:40:02 UTC
